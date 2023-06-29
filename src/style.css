@@ -88,8 +88,22 @@
     color: var(--primary-color);
     font-size: 28px;
     text-decoration: none;
+    margin-bottom:30px;
   }
   
   .email-link:hover {
     text-decoration: underline;
+  }
+
+  @media (max-width: 576px){
+    .weather-img, .yoga-img, .yogurt-img {
+      display:none;
+    }
+    /* .img-row{
+      max-width:350px;
+      height:auto;
+    } */
+  }
+  .yogurt-img {
+    margin-bottom:40px;
   }
